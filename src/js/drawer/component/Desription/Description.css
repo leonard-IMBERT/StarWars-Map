@@ -1,0 +1,93 @@
+.desc-bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(155,155,155,0.5);
+}
+
+.desc-panel {
+    width: 70%;
+    height: 70%;
+    background-color: white;
+    z-index: 6;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.desc-panel ul {
+    list-style: decimal;
+    margin: 2px;
+    padding-left: 15px;
+}
+
+#desc-close {
+    position: relative;
+    right: 5px;
+    top: 5px;
+    background-color: red;
+    color: black;
+    float: right;
+    width: 13px;
+    height: 13px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#desc-new-planet {
+    bottom: 15px;
+}
+
+#desc-content {
+    height: calc(100% - 37px);
+}
+
+#desc-form {
+    height: 37px;
+}
+
+p {
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+
+p:first-child {
+    margin-top: 0px
+}
+
+button {
+  border: none;
+  border-radius: 3px;
+  background: #5cb85c;
+  padding: 5px 10px 5px 10px;
+  font-family: inherit;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+a {
+    color: black;
+}
+
+a:active {
+    color: black;
+}
+
+textarea {
+  resize: none;
+  width: calc(100% - 10px);
+  font-size: 18px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 2px;
+  font-family: inherit;
+  padding: 3px;
+}
+
+#desc-save {
+    float: right;
+}

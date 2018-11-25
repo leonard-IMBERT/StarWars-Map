@@ -1,0 +1,6 @@
+canvas#map {
+  height: 100%;
+  width: calc(100% - 55px);
+  background-color: white;
+  z-index: 1;
+}
